@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({extended: false}))
 
-const mySecret = process.env['MESSAGE_STYLE']
+const mySecret = process.env.MESSAGE_STYLE
 // function logger(req, res, next) {
 //   const method = req.method;
 //   const path = req.path;
